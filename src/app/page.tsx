@@ -27,7 +27,7 @@ export default function Home() {
                 </h2>
                 <p className="text-white">
                   We are currently looking for local cleaners around Nottingham,
-                  if you like house cleaning then we&apos;d like to hear from
+                  if you like house cleaning then we'd like to hear from
                   you.
                 </p>
                 <Button href="/" text="Book Online Today" extraClass="w-fit" />
@@ -94,7 +94,7 @@ export default function Home() {
                 <p className="leading-8">
                   At Sparkle Crew, we believe that a clean environment is
                   essential for both your peace of mind and productivity. With
-                  our dedicated team of cleaning experts, we&apos;re here to
+                  our dedicated team of cleaning experts, we're here to
                   transform your space into a pristine sanctuary where every
                   surface gleams and every corner sparkles.
                 </p>
