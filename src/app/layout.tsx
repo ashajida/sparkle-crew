@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from 'next/link'
+import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,9 +16,25 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-white font-medium`}>
+        <Header />
+        {children}
+        <footer className="py-[80px] bg-black">
+          <div className="container">
+            <div className="flex flex-col items-center gap-[52px]">
+              <img src="./images/logo.png" alt="logo" className="max-w-[191px]" />
+              <nav className="flex flex-row gap-[27px] text-white">
+                <Link href='/services'>Services</Link>
+                <Link href='/about'>About</Link>
+                <Link href='/contact'>Contact</Link>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

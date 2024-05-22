@@ -1,113 +1,281 @@
 import Image from "next/image";
+import Button from "./components/Button";
+import PriceCard from "./components/PriceCard";
+import Bubble from "./components/Bubble";
+import ServiceCard from "./components/ServiceCard";
+import Hero from "./components/Hero";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <Hero
+        title="From Home to Office, We Keep Every Space Spotless, Making Cleanliness Effortless For You"
+        img="./images/hero.jpg"
+        imgSx="./images/hero-sx.png"
+        imgMd="./images/hero-md.png"
+      >
+        <Button href="/contact" text="Book Online Today" extraClass="w-fit" />
+      </Hero>
+      {/* <section className="py-[80px] bg-gradient-to-r from-black to-primary">
+        <div className="container">
+          <div className="grid lg:grid-cols-2">
+            <div className="col-span-1 pr-14 flex flex-col justify-center">
+              <div className="flex flex-col gap-8">
+                <h2 className="text-white text-[32px] font-semibold">
+                  Recruitment
+                </h2>
+                <p className="text-white">
+                  We are currently looking for local cleaners around Nottingham,
+                  if you like house cleaning then we&apos;d like to hear from
+                  you.
+                </p>
+                <Button href="/" text="Book Online Today" extraClass="w-fit" />
+              </div>
+            </div>
+            <div className="image-wrapper col-span-1 w-[400px] rounded-lg ml-auto">
+              <img
+                src="./images/careers.gif"
+                alt=""
+                className="w-full h-full object-cover object-center rounded-md"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+      </section> */}
+      <section className="py-[80px]">
+        <div className="container">
+          <h2 className="text-center mb-[58px] text-[32px] bold font-semibold">
+            Our Services
           </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+          <div className="grid lg:grid-cols-2 gap-[22px] mb-[32px]">
+            <ServiceCard
+              img="./images/commercial.jpg"
+              title="Commercial Cleaning"
+              extraClasses="col-span-1"
+            >
+              <Link
+                href="commercial"
+                className="text-center text-[18px] block mx-auto"
+              >
+                Commercial Cleaning
+              </Link>
+            </ServiceCard>
+            <ServiceCard
+              img="./images/domestic.jpg"
+              title="Domestic Cleaning"
+              extraClasses="col-span-1"
+            >
+              <Link
+                href="/domestic"
+                className="text-center text-[18px] block mx-auto"
+              >
+                Domestic Cleaning
+              </Link>
+            </ServiceCard>
+          </div>
+        </div>
+      </section>
+      <section className="py-[80px]">
+        <div className="container">
+          <div className="grid lg:grid-cols-2 gap-[22px]">
+            <div className="image-wrapper col-span-1 h-[500px] rounded-lg">
+              <img
+                src="./images/sink-cleaning.jpg"
+                alt=""
+                className="w-full h-full object-cover object-center rounded-md"
+              />
+            </div>
+            <div className="col-span-1 lg:pl-14 flex flex-col justify-center relative">
+              <div className="flex flex-col gap-7">
+                <h2 className="font-semibold text-[32px]">
+                  Experience the best quality services with Sparkle Crew
+                </h2>
+                <p className="leading-8">
+                  At Sparkle Crew, we believe that a clean environment is
+                  essential for both your peace of mind and productivity. With
+                  our dedicated team of cleaning experts, we&apos;re here to
+                  transform your space into a pristine sanctuary where every
+                  surface gleams and every corner sparkles.
+                </p>
+                <Bubble extraClasses="absolute top-0 right-3 z-[-1]" />
+                <Bubble
+                  extraClasses="absolute top-20 right-0 z-[-1]"
+                  width="30"
+                  height="30"
+                />
+                <Button href="/about-us" text="Read More" extraClass="w-fit" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-[80px] bg-gradient-to-r from-black to-primary">
+        <div className="container">
+          <div className="flex flex-col justify-center">
+            <h2 className="text-white text-center mb-[58px] font-semibold text-[32px] leading-10">
+              Choose From Our Price Plans
+            </h2>
+            <div className="grid lg:grid-cols-2 gap-[22px]">
+              <PriceCard
+                type="Domestic Cleaning"
+                price="£20.00 p/hr"
+                body="Our team is dedicated to providing thorough and reliable cleaning solutions that cater to your specific needs"
+                keyPoints={["item 1", "item 2", "Item 3"]}
+                buttonLink="/"
+              >
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Dusting and wiping down surfaces, including furniture, shelves, and baseboards</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Vacuuming carpets, rugs, and upholstery.</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Cleaning and sanitizing bathrooms, including toilets, sinks, tubs, and showers.</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Washing dishes and emptying trash bins.</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Removing cobwebs from ceilings and corners</span>
+                </div>
+              </PriceCard>
+              <PriceCard
+                type="Commercial Cleaning"
+                price="£20.00 p/hr"
+                body="Discover our comprehensive commercial cleaning services tailored to meet your business needs"
+                keyPoints={["item 1", "item 2", "Item 3"]}
+                buttonLink="/"
+                hightlight={true}
+              >
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Dusting and wiping down surfaces, including desks, tables, and countertops</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Vacuuming carpets and rugs, and sweeping and mopping hard floors</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Cleaning and sanitizing restrooms, including toilets, sinks, and fixtures</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Cleaning and disinfecting common areas, such as break rooms and lobbies</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Cleaning and sanitizing kitchen areas, including sinks, countertops, and appliances</span>
+                </div>
+                <div
+                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
+                >
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                    className="shrink-0 my-auto w-4 aspect-square"
+                  />
+                  <span className="text-[12px]">Dusting and wiping down office equipment</span>
+                </div>
+              </PriceCard>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-[80px]">
+        <div className="container">
+          <div className="grid lg:grid-cols-2 gap-[22px]">
+            <div className="col-span-1 lg:pr-14 flex flex-col justify-center">
+              <div className="flex flex-col gap-7">
+                <h2 className="font-semibold text-[32px] leading-10">
+                  Why Choose Us
+                </h2>
+                <p className="leading-8">
+                  We take pride in our meticulous attention to detail. From
+                  sanitizing high-touch surfaces to removing stubborn stains, no
+                  corner goes overlooked. With Sparkle Crew, you can trust that
+                  every inch of your space will be thoroughly cleaned and
+                  refreshed.
+                </p>
+                <Button href="/" text="Book Online Today" extraClass="w-fit" />
+              </div>
+            </div>
+            <div className="image-wrapper col-span-1 h-[500px] rounded-lg order-first lg:order-last">
+              <img
+                src="./images/sink-cleaning.jpg"
+                alt=""
+                className="w-full h-full object-cover object-center rounded-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
