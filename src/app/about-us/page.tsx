@@ -23,7 +23,7 @@ const AboutUs = () => {
             </div>
             <div className="col-span-1 flex flex-col justify-center gap-7 lg:max-w-[70%]">
               <p className="leading-8">
-                At Sparkle Crew, we're passionate about creating clean
+                At Sparkle Crew, we&apos;re passionate about creating clean
                 environments that go beyond just surface-level shine. We believe
                 a sparkling space fosters peace of mind and boosts productivity,
                 allowing you to focus on what truly matters. Our dedicated team
@@ -54,11 +54,11 @@ const AboutUs = () => {
               <p className="leading-8 lg:max-w-[70%]">
                 Our mission is to transform your space, not just clean it. We
                 believe a sparkling environment goes beyond aesthetics,
-                promoting well-being and productivity. That's why we offer
+                promoting well-being and productivity. That&apos;s why we offer
                 meticulous cleaning with a focus on hygiene, a team of
                 experienced and trustworthy cleaning experts, customized
                 solutions for every space, and reliable, flexible scheduling to
-                seamlessly fit your needs. We're here to create a clean
+                seamlessly fit your needs. We&apos;re here to create a clean
                 environment that fosters peace of mind and empowers you to
                 thrive.
               </p>

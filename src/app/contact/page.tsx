@@ -14,7 +14,7 @@ const Contact = () => {
                 Seeking a Cleaning Crew You Can Trust? We understand how
                 precious your time is. Our friendly and reliable team offers
                 consistent, high-quality cleaning services to keep your space
-                sparkling. We'd love to chat and discuss how we can help!
+                sparkling. We&apos;d love to chat and discuss how we can help!
               </p>
               <div className="flex gap-2 items-center">
                 <svg
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="col-span-1">
                 <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md flex flex-col gap-7">
                 <h3 className="text-[22px] font-semibold text-black">
-                We'd love to hear from you and let's get in touch.</h3>
+                We&apos;d love to hear from you and let&apos;s get in touch.</h3>
               <form action="" className="w-full">
                 <div className="mb-4 w-full">
                   <input
