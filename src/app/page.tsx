@@ -121,10 +121,10 @@ export default function Home() {
                 type="Domestic Cleaning"
                 price="£20.00 p/hr"
                 body="Our team is dedicated to providing thorough and reliable cleaning solutions that cater to your specific needs"
-                keyPoints={["item 1", "item 2", "Item 3"]}
                 buttonLink="/"
               >
-                <div
+               <>
+               <div
                   className="flex gap-2.5 justify-center self-start leading-8 text-white"
                 >
                   <img
@@ -174,15 +174,15 @@ export default function Home() {
                   />
                   <span className="text-[12px]">Removing cobwebs from ceilings and corners</span>
                 </div>
+               </>
               </PriceCard>
               <PriceCard
                 type="Commercial Cleaning"
                 price="£20.00 p/hr"
                 body="Discover our comprehensive commercial cleaning services tailored to meet your business needs"
-                keyPoints={["item 1", "item 2", "Item 3"]}
                 buttonLink="/"
-                hightlight={true}
               >
+                <>
                 <div
                   className="flex gap-2.5 justify-center self-start leading-8 text-white"
                 >
@@ -243,6 +243,7 @@ export default function Home() {
                   />
                   <span className="text-[12px]">Dusting and wiping down office equipment</span>
                 </div>
+                </>
               </PriceCard>
             </div>
           </div>
