@@ -93,7 +93,7 @@ const CommercialBookingForm = () => {
         </div>
         <div className="mb-4">
           <label className="text-[#9ca3af] mb-3 block">
-            What day/days to you require the service?
+            What day/days do you require the service?
           </label>
           <div className="grid grid-cols-4 gap-4">
             <div className="col-span-1">
