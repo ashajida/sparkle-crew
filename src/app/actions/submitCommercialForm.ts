@@ -26,7 +26,7 @@ export const submitCommercialForm = async (prevState: any, formData: FormData) =
     fullName: z.string().min(10),
     message: z.string().max(100),
     postcode: z.string().min(6).max(8),
-    days: z.array(z.string()).nonempty("Must select at least one day"), 
+    days: z.array(z.string()).nonempty("Must select at least 1 day"), 
   });
 
   const fullName = formData.get("fullName");
