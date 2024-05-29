@@ -2,6 +2,7 @@
 
 import { ZodError, ZodType, z } from "zod";
 import { options, transporter } from "../nodemailer";
+import { generateHtml } from "../templates/generateHtml";
 
 type FormValues = {
     email: string,
@@ -42,7 +43,13 @@ export const submitContactForm = async (prevState: any, formData: FormData) => {
         subject
       });
 
-      //await transporter.sendMail({...options, subject: 'Test', text: 'Text goes here', html: '<h1>hello World!<h1>'})
+      await transporter.sendMail({...options, subject: "", text: '', html: generateHtml({
+        fullName,
+        email,
+        tel,
+        message,
+        subject
+      })})
 
       const result = {
             values: {
@@ -86,3 +93,5 @@ export const submitContactForm = async (prevState: any, formData: FormData) => {
       console.log(e);
     }
   };
+
+

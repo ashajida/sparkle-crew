@@ -53,7 +53,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-span-1">
-              <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md flex flex-col gap-7">
+              <div className="lg:w-[500px] lg:p-9 lg:bg-[#fff] lg:rounded-md lg:shadow-md  flex flex-col gap-7">
                 <h3 className="text-[22px] font-semibold text-black">
                   We&apos;d love to hear from you and let&apos;s get in touch.
                 </h3>

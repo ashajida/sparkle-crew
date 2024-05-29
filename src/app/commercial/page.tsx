@@ -2,7 +2,9 @@ import React from "react";
 import Hero from "../components/Hero";
 import Image from "next/image";
 import HeroSecondary from "../components/HeroSecondary";
-import BookingForm from "../components/BookingForm";
+import BookingForm from "../components/CommercialBookingForm";
+import { submitCommercialForm } from "../actions/submitCommercialForm";
+import CommercialBookingForm from "../components/CommercialBookingForm";
 
 const Commercial = () => {
   return (
@@ -26,11 +28,9 @@ const Commercial = () => {
               </p>
             </div>
             <div className="col-span-1">
-              <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md ">
+              <div className="lg:w-[500px] lg:p-9 lg:bg-[#fff] lg:rounded-md lg:shadow-md ">
               <h3 className="text-[22px] font-semibold text-black mb-7">Commercial Cleaning Quote</h3>
-
-              <BookingForm isDemestic={false} />
-
+                <CommercialBookingForm/>
               </div>
             </div>
           </div>

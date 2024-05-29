@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import HeroSecondary from "../components/HeroSecondary";
-import BookingForm from "../components/BookingForm";
+import BookingForm from "../components/CommercialBookingForm";
+import { submitDomesticForm } from "../actions/submitDomesticForm";
+import DomesticBookingForm from "../components/DomesticBookingForm";
 
 const Domestic = () => {
   return (
@@ -27,10 +29,10 @@ const Domestic = () => {
             </div>
 
             <div className="col-span-1">
-            <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md ">
+            <div className="lg:w-[500px] lg:p-9 lg:bg-[#fff] lg:rounded-md lg:shadow-md ">
             <h3 className="text-[22px] font-semibold text-black mb-7">Domestic Cleaning Quote</h3>
 
-            <BookingForm />
+            <DomesticBookingForm />
 
             </div>
             </div>
