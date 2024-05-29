@@ -1,27 +1,19 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Image from "next/image";
+import HeroSecondary from "../components/HeroSecondary";
+import BookingForm from "../components/BookingForm";
 
 const Commercial = () => {
   return (
     <main>
-      <Hero
+      <HeroSecondary
         title="Commercial Cleaning"
-        img="./images/commercial-cleaning.png"
       />
       <section className="py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
-            <div className="col-span-1">
-              <Image
-                className="rounded"
-                src="/images/office-space.jpg"
-                alt=""
-                height={`${427}`}
-                width={`${640}`}
-              />
-            </div>
-            <div className="col-span-1 lg:pl-14">
+            <div className="col-span-1 lg:pr-14">
               <h2 className="text-[32px] font-semibold mb-[28px]">
                 A Clean and Healthy Workplace Starts with Sparkle Crew
               </h2>
@@ -32,6 +24,14 @@ const Commercial = () => {
                 small offices to large buildings, we handle it all so you can
                 focus on your business.
               </p>
+            </div>
+            <div className="col-span-1">
+              <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md ">
+              <h3 className="text-[22px] font-semibold text-black mb-7">Commercial Cleaning Quote</h3>
+
+              <BookingForm isDemestic={false} />
+
+              </div>
             </div>
           </div>
         </div>

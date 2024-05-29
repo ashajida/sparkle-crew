@@ -91,16 +91,16 @@ const Header = () => {
               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
             </svg>
           </div>
-          <Link href="/about-us" className="text-[22px] lg:text-[1rem] nav-link hover:">
+          <Link onClick={handleMobileNav } href="/about-us" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
             About Us
           </Link>
-          <Link href="/domestic" className="text-[22px] lg:text-[1rem] nav-link">
+          <Link onClick={handleMobileNav } href="/domestic" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
             Domestic
           </Link>
-          <Link href="/commercial" className="text-[22px] lg:text-[1rem] nav-link">
+          <Link onClick={handleMobileNav} href="/commercial" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
             Commercial
           </Link>
-          <Link href="/contact" className="text-[22px] lg:text-[1rem] nav-link">
+          <Link onClick={handleMobileNav} href="/contact" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
             Contact
           </Link>
         </nav>

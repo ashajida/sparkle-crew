@@ -35,3 +35,10 @@ body {
 .nav-link.active {
   @apply text-black;
 }
+
+.radio-selector:has(input:checked){
+  @apply bg-primary;
+  @apply text-white;
+  @apply border-primary;
+  
+}

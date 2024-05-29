@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Image from "next/image";
-import PriceCard from "../components/PriceCard";
+import HeroSecondary from "../components/HeroSecondary";
+import BookingForm from "../components/BookingForm";
 
 const Domestic = () => {
   return (
     <main>
-      <Hero title="Domestic Cleaning" img="./images/domestic-cleaning.png" />
+      <HeroSecondary title="Domestic Cleaning"/>
       <section className="py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px]">
@@ -27,13 +27,12 @@ const Domestic = () => {
             </div>
 
             <div className="col-span-1">
-              <Image
-                src="/images/domestic-cleaner.jpg"
-                alt="domestic cleaning"
-                width={`${640}`}
-                height={`${960}`}
-                className="w-full rounded-md"
-              />
+            <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md ">
+            <h3 className="text-[22px] font-semibold text-black mb-7">Domestic Cleaning Quote</h3>
+
+            <BookingForm />
+
+            </div>
             </div>
           </div>
         </div>

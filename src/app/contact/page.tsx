@@ -1,15 +1,21 @@
+'use client';
 import React from "react";
-import Hero from "../components/Hero";
+import HeroSecondary from "../components/HeroSecondary";
+import ContactForm from "../components/ContactForm";
+
 
 const Contact = () => {
+
   return (
     <main>
-      <Hero title="Contact Us" img="./images/commercial-cleaning.png" />
+      <HeroSecondary title="Contact Us" />
       <section className="py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1 lg:pr-14 flex flex-col gap-7">
-              <h2 className="font-semibold text-[32px] text-black">Contact Us</h2>
+              <h2 className="font-semibold text-[32px] text-black">
+                Contact Us
+              </h2>
               <p className="leading-8 text-black">
                 Seeking a Cleaning Crew You Can Trust? We understand how
                 precious your time is. Our friendly and reliable team offers
@@ -47,42 +53,12 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-span-1">
-                <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md flex flex-col gap-7">
+              <div className="lg:w-[500px] lg:p-9 bg-[#fff] rounded-md flex flex-col gap-7">
                 <h3 className="text-[22px] font-semibold text-black">
-                We&apos;d love to hear from you and let&apos;s get in touch.</h3>
-              <form action="" className="w-full">
-                <div className="mb-4 w-full">
-                  <input
-                    type="text"
-                    className=" border-[1px] border-slate-100 rounded-md py-[10px] px-[16px] w-full"
-                    placeholder="Full Name"
-                  />
-                </div>
-                <div className="mb-4 w-full">
-                  <input
-                    type="email"
-                    className="border-[1px] border-slate-100 rounded-md py-[10px] px-[16px] w-full"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="mb-4 w-full">
-                  <input
-                    type="tel"
-                    className="border-[1px] border-slate-100 rounded-md py-[10px] px-[16px] w-full"
-                    placeholder="Phone"
-                  />
-                </div>
-                <div className="mb-4 w-full">
-                  <textarea
-                    className="border-[1px] border-slate-100 rounded-md py-[10px] px-[16px] w-full min-h-[150px]"
-                    placeholder="Message..."
-                  />
-                </div>
-                <button className="rounded-md py-[10px] px-[16px] w-full font-medium uppercase bg-primary">
-                  Submit
-                </button>
-              </form>
-                </div>
+                  We&apos;d love to hear from you and let&apos;s get in touch.
+                </h3>
+                <ContactForm />
+              </div>
             </div>
           </div>
         </div>

@@ -5,18 +5,21 @@ type Props = {
     img: string,
     title: string,
     extraClasses: string,
-    children?: JSX.Element
+    children?: JSX.Element,
+    href: string
 }
 
-const ServiceCard = ({ img, title, extraClasses, children}: Props) => {
+const ServiceCard = ({ img, title, extraClasses, children, href}: Props) => {
   return (
     <div className={`${extraClasses}`}>
-        <div className='w-full h-[360px] mb-8'>
-            <img src={img} alt={title} className='w-full h-full object-cover object-center rounded-md' />
-        </div>
-        {
-            children
-        }
+        <Link href={href}>
+          <div className='w-full h-[360px] mb-8'>
+              <img src={img} alt={title} className='w-full h-full object-cover object-center rounded-md' />
+          </div>
+          {
+              children
+          }
+        </Link>
     </div>
   )
 }

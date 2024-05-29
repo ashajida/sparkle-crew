@@ -19,7 +19,7 @@ const PriceCard = ({ type, price, body,  buttonLink, children }: Props) => {
         <div className="self-center text-5xl font-bold leading-8 text-white max-md:text-4xl">
           {price}
         </div>
-        <div className="mt-9 text-base leading-[32px] text-white">
+        <div className="mt-9 text-base leading-[22px] text-white">
           {body}
         </div>
       </div>

@@ -53,25 +53,25 @@ export default function Home() {
               img="./images/commercial.jpg"
               title="Commercial Cleaning"
               extraClasses="col-span-1"
+              href="/commercial"
             >
-              <Link
-                href="commercial"
+              <p
                 className="text-center text-[18px] block mx-auto"
               >
                 Commercial Cleaning
-              </Link>
+              </p>
             </ServiceCard>
             <ServiceCard
               img="./images/domestic.jpg"
               title="Domestic Cleaning"
               extraClasses="col-span-1"
+              href="/domestic"
             >
-              <Link
-                href="/domestic"
+              <p
                 className="text-center text-[18px] block mx-auto"
               >
                 Domestic Cleaning
-              </Link>
+              </p>
             </ServiceCard>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Home() {
                 type="Domestic Cleaning"
                 price="£20.00 p/hr"
                 body="Our team is dedicated to providing thorough and reliable cleaning solutions that cater to your specific needs"
-                buttonLink="/"
+                buttonLink="/contact"
               >
                <>
                <div
@@ -180,7 +180,7 @@ export default function Home() {
                 type="Commercial Cleaning"
                 price="£20.00 p/hr"
                 body="Discover our comprehensive commercial cleaning services tailored to meet your business needs"
-                buttonLink="/"
+                buttonLink="/contact"
               >
                 <>
                 <div
