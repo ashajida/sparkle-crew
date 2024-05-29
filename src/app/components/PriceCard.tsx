@@ -15,18 +15,18 @@ const PriceCard = ({ type, price, body,  buttonLink, children }: Props) => {
       <div className="text-lg font-semibold leading-8 text-white">
         {type}
       </div>
-      <div className="flex flex-col px-1.5 pt-2.5 mt-7">
+      <div className="flex flex-col mt-7">
         <div className="text-5xl font-bold leading-[48px] mb-2 text-white md:text-4xl">
           {price}
         </div>
         <div className="leading-8= text-white">
           PER CLEANER / PER HOUR
         </div>
-        <div className="mt-9 text-base leading-[22px] text-white">
+        <div className="mt-7 text-base leading-[22px] text-white mb-4">
           {body}
         </div>
       </div>
-      <div className="flex flex-col mb-8">
+      <div className="flex flex-col mb-7">
         {
           children
         }
