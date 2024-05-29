@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Router, useRouter } from "next/router";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 
 type Props = {
@@ -7,6 +9,8 @@ type Props = {
 };
 
 const Header = () => {
+  const path = usePathname()
+  const isActive = (href: string) => path == href;
   const headeRef = useRef<HTMLElement | null>(null);
   const [stickyNav, setStickyNav] = useState(false);
   const [ isOpen, setIsOpen ] = useState(false);
@@ -91,16 +95,16 @@ const Header = () => {
               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
             </svg>
           </div>
-          <Link onClick={handleMobileNav } href="/about-us" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+          <Link onClick={handleMobileNav } href="/about-us" className={`text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center ${isActive('/about-us') && 'after:scale-x-100 text-primary'} `}>
             About Us
           </Link>
-          <Link onClick={handleMobileNav } href="/domestic" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+          <Link onClick={handleMobileNav } href="/domestic" className={`text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center ${isActive('/domestic') && 'after:scale-x-100 text-primary'} `}>
             Domestic
           </Link>
-          <Link onClick={handleMobileNav} href="/commercial" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+          <Link onClick={handleMobileNav} href="/commercial" className={` text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center ${isActive('/commercial') && 'after:scale-x-100 text-primary'}`}>
             Commercial
           </Link>
-          <Link onClick={handleMobileNav} href="/contact" className="text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+          <Link onClick={handleMobileNav} href="/contact" className={`text-[22px] lg:text-[1rem] relative nav-link hover:text-primary after:block after:content-[''] after:absolute after:h-[3px] after:bg-primary after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center ${isActive('/contact') && 'after:scale-x-100 text-primary'} `}>
             Contact
           </Link>
         </nav>

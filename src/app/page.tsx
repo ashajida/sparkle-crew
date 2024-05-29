@@ -55,9 +55,7 @@ export default function Home() {
               extraClasses="col-span-1"
               href="/commercial"
             >
-              <p
-                className="text-center text-[18px] block mx-auto"
-              >
+              <p className="text-center text-[18px] block mx-auto">
                 Commercial Cleaning
               </p>
             </ServiceCard>
@@ -67,9 +65,7 @@ export default function Home() {
               extraClasses="col-span-1"
               href="/domestic"
             >
-              <p
-                className="text-center text-[18px] block mx-auto"
-              >
+              <p className="text-center text-[18px] block mx-auto">
                 Domestic Cleaning
               </p>
             </ServiceCard>
@@ -119,130 +115,137 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-[22px]">
               <PriceCard
                 type="Domestic Cleaning"
-                price="£20.00 p/hr"
+                price="£20.00"
                 body="Our team is dedicated to providing thorough and reliable cleaning solutions that cater to your specific needs"
                 buttonLink="/contact"
               >
-               <>
-               <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Dusting and wiping down surfaces, including furniture, shelves, and baseboards</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Vacuuming carpets, rugs, and upholstery.</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Cleaning and sanitizing bathrooms, including toilets, sinks, tubs, and showers.</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Washing dishes and emptying trash bins.</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Removing cobwebs from ceilings and corners</span>
-                </div>
-               </>
+                <>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Dusting and wiping down surfaces, including furniture,
+                      shelves, and baseboards
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Vacuuming carpets, rugs, and upholstery.
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Cleaning and sanitizing bathrooms, including toilets,
+                      sinks, tubs, and showers.
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Washing dishes and emptying trash bins.
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Removing cobwebs from ceilings and corners
+                    </span>
+                  </div>
+                </>
               </PriceCard>
               <PriceCard
                 type="Commercial Cleaning"
-                price="£20.00 p/hr"
+                price="£20.00"
                 body="Discover our comprehensive commercial cleaning services tailored to meet your business needs"
                 buttonLink="/contact"
               >
                 <>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Dusting and wiping down surfaces, including desks, tables, and countertops</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Vacuuming carpets and rugs, and sweeping and mopping hard floors</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Cleaning and sanitizing restrooms, including toilets, sinks, and fixtures</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Cleaning and disinfecting common areas, such as break rooms and lobbies</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Cleaning and sanitizing kitchen areas, including sinks, countertops, and appliances</span>
-                </div>
-                <div
-                  className="flex gap-2.5 justify-center self-start leading-8 text-white"
-                >
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
-                    className="shrink-0 my-auto w-4 aspect-square"
-                  />
-                  <span className="text-[12px]">Dusting and wiping down office equipment</span>
-                </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Dusting and wiping down surfaces, including desks, tables,
+                      and countertops
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Vacuuming carpets and rugs, and sweeping and mopping hard
+                      floors
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Cleaning and sanitizing restrooms, including toilets,
+                      sinks, and fixtures
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Cleaning and disinfecting common areas, such as break
+                      rooms and lobbies
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Cleaning and sanitizing kitchen areas, including sinks,
+                      countertops, and appliances
+                    </span>
+                  </div>
+                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
+                      className="shrink-0 my-auto w-4 aspect-square"
+                    />
+                    <span className="text-[12px]">
+                      Dusting and wiping down office equipment
+                    </span>
+                  </div>
                 </>
               </PriceCard>
             </div>
