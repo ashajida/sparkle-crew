@@ -120,7 +120,7 @@ export default function Home() {
                 buttonLink="/contact"
               >
                 <>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -131,7 +131,7 @@ export default function Home() {
                       shelves, and baseboards
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -141,7 +141,7 @@ export default function Home() {
                       Vacuuming carpets, rugs, and upholstery.
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -152,7 +152,7 @@ export default function Home() {
                       sinks, tubs, and showers.
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -162,7 +162,7 @@ export default function Home() {
                       Washing dishes and emptying trash bins.
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -181,7 +181,7 @@ export default function Home() {
                 buttonLink="/contact"
               >
                 <>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -192,7 +192,7 @@ export default function Home() {
                       and countertops
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -203,7 +203,7 @@ export default function Home() {
                       floors
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -214,7 +214,7 @@ export default function Home() {
                       sinks, and fixtures
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -225,7 +225,7 @@ export default function Home() {
                       rooms and lobbies
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
@@ -236,7 +236,7 @@ export default function Home() {
                       countertops, and appliances
                     </span>
                   </div>
-                  <div className="flex gap-2.5 justify-center self-start leading-8 text-white">
+                  <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
