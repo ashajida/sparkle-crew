@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import HeroSecondary from "../components/HeroSecondary";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Sparkle Crew | About Us',
+  description: '...',
+}
 
 const AboutUs = () => {
   return (

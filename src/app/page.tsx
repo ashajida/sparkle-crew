@@ -4,7 +4,13 @@ import PriceCard from "./components/PriceCard";
 import Bubble from "./components/Bubble";
 import ServiceCard from "./components/ServiceCard";
 import Hero from "./components/Hero";
-import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Sparkle Crew Cleaning Services | Professional Cleaning in Nottingham',
+  description: "Get a sparkling clean home or office with Sparkle Crew. We offer reliable, professional cleaning services in Nottingham. Free quotes & eco-friendly options available.",
+}
+
 
 export default function Home() {
   return (

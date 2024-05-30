@@ -1,8 +1,13 @@
-'use client';
 import React from "react";
 import HeroSecondary from "../components/HeroSecondary";
 import ContactForm from "../components/ContactForm";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Contact Sparkle Crew | Get a Free Cleaning Quote in Nottingham',
+  description: "Contact us today for a free cleaning quote in Nottingham. We're happy to answer your questions.",
+}
 
 const Contact = () => {
 

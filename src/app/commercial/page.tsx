@@ -1,10 +1,13 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Image from "next/image";
 import HeroSecondary from "../components/HeroSecondary";
-import BookingForm from "../components/CommercialBookingForm";
-import { submitCommercialForm } from "../actions/submitCommercialForm";
 import CommercialBookingForm from "../components/CommercialBookingForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Reliable Commercial Cleaning Services in Nottingham | Local Cleaning | Sparkle Crew',
+  description: "Maintain a clean and professional work environment with Sparkle Crew's commercial cleaning services in Nottingham. Daily, weekly, or customized cleaning plans.",
+}
 
 const Commercial = () => {
   return (

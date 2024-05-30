@@ -4,6 +4,13 @@ import HeroSecondary from "../components/HeroSecondary";
 import BookingForm from "../components/CommercialBookingForm";
 import { submitDomesticForm } from "../actions/submitDomesticForm";
 import DomesticBookingForm from "../components/DomesticBookingForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Demestic Cleaning Services In Nottingham | | Local Cleaning | Sparkle Crew',
+  description: 'Enjoy a spotless home without lifting a finger! Sparkle Crew offers professional domestic cleaning services in Nottingham. Weekly, bi-weekly, or one-time cleans available',
+}
+
 
 const Domestic = () => {
   return (
