@@ -19,6 +19,7 @@
 body {
   @apply text-black;
   padding-top: var(--body-padding-sm);
+  @apply font-medium;
 }
 
 @media (width >= 1024px) {

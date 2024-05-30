@@ -24,13 +24,19 @@ export default function RootLayout({
         {children}
         <footer className="py-[80px] bg-black">
           <div className="container">
-            <div className="flex flex-col items-center gap-[52px]">
-              <img src="./images/logo.png" alt="logo" className="max-w-[191px]" />
-              <nav className="flex flex-row gap-[27px] text-white">
-                <Link href='/domestic'>Domestic</Link>
-                <Link href='/commercial'>Commercial</Link>
-                <Link href='/about'>About Us</Link>
-                <Link href='/contact'>Contact</Link>
+            <div className="grid lg:grid-cols-2 gap-6 lg:gap-0">
+              <img src="./images/logo.png" alt="logo" className="max-w-[191px] hidden lg:block" />
+              <nav className="flex flex-col lg:flex-row gap-6 text-white">
+                <div className="flex flex-col">
+                  <h3 className="font-semibold mb-3">Services</h3>
+                  <Link className="font-normal mb-2 hover:underline" href='/domestic'>Domestic</Link>
+                  <Link className="font-normal hover:underline" href='/commercial'>Commercial</Link>
+                </div>
+                <div className="flex flex-col">
+                  <h3 className="font-semibold mb-3">Navigation</h3>
+                  <Link className="font-normal mb-2 hover:underline" href='/about-us'>About Us</Link>
+                  <Link className="font-normal hover:underline" href='/contact'>Contact</Link>
+                </div>
               </nav>
             </div>
           </div>
