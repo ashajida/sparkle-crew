@@ -123,7 +123,7 @@ export default function Home() {
                 type="Domestic Cleaning"
                 price="£20.00"
                 body="Our team is dedicated to providing thorough and reliable cleaning solutions that cater to your specific needs"
-                buttonLink="/contact"
+                buttonLink="/domestic"
               >
                 <>
                   <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
@@ -184,7 +184,7 @@ export default function Home() {
                 type="Commercial Cleaning"
                 price="£20.00"
                 body="Discover our comprehensive commercial cleaning services tailored to meet your business needs"
-                buttonLink="/contact"
+                buttonLink="/commercial"
               >
                 <>
                   <div className="flex gap-2.5 justify-center self-start leading-4 text-white mb-2">
@@ -273,7 +273,7 @@ export default function Home() {
                   every inch of your space will be thoroughly cleaned and
                   refreshed.
                 </p>
-                <Button href="/" text="Book Online Today" extraClass="w-fit" />
+                <Button href="/about-us" text="Read More" extraClass="w-fit" />
               </div>
             </div>
             <div className="image-wrapper col-span-1 h-[500px] rounded-lg order-first lg:order-last">

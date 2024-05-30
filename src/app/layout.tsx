@@ -27,8 +27,9 @@ export default function RootLayout({
             <div className="flex flex-col items-center gap-[52px]">
               <img src="./images/logo.png" alt="logo" className="max-w-[191px]" />
               <nav className="flex flex-row gap-[27px] text-white">
-                <Link href='/services'>Services</Link>
-                <Link href='/about'>About</Link>
+                <Link href='/domestic'>Domestic</Link>
+                <Link href='/commercial'>Commercial</Link>
+                <Link href='/about'>About Us</Link>
                 <Link href='/contact'>Contact</Link>
               </nav>
             </div>
