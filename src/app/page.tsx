@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main>
       <Hero
-        title="Sparkling homes & offices. Effortless cleaning."
+        title="Sparkling&nbsp;homes&nbsp;&&nbsp;offices. Effortless&nbsp;cleaning."
         img="./images/hero.jpg"
         imgSx="./images/hero-sx.png"
         imgMd="./images/hero-md.png"
@@ -122,7 +122,7 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col justify-center">
             <h2 style={{ lineHeight: 1.14 }} className="text-white text-center mb-[58px] font-semibold text-[32px]">
-              Choose From Our Price Plans
+              Choose From Our Price&nbsp;Plans
             </h2>
             <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
               <PriceCard
