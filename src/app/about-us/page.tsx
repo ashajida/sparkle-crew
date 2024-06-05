@@ -12,9 +12,9 @@ const AboutUs = () => {
   return (
     <main>
       <HeroSecondary title="About Us"/>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
-          <div className="grid lg:grid-cols-2 gap-7">
+          <div className="grid lg:grid-cols-2 gap-7 items-center">
             <div className="col-span-1">
               <Image
                 src="/images/cleaning-crew.jpg"
@@ -24,11 +24,11 @@ const AboutUs = () => {
                 className="rounded-md"
               />
             </div>
-            <div className="col-span-1 flex flex-col justify-center gap-7 lg:pl-14">
-              <h2 className="leading-10 text-[32px] text-black font-semibold">
+            <div className=" order-first lg:order-last col-span-1 flex flex-col justify-center gap-7 lg:pl-14">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] text-black font-semibold">
                 Sparkle Crew: Where Cleanliness Meets Peace of Mind
               </h2>
-              <p className="leading-8">
+              <p style={{ lineHeight: 1.5 }}>
                 At Sparkle Crew, we&apos;re passionate about creating clean
                 environments that go beyond just surface-level shine. We believe
                 a sparkling space fosters peace of mind and boosts productivity,
@@ -41,11 +41,11 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-7">
             <div className="col-span-1 flex flex-col justify-center gap-7 lg:pr-14">
-              <h2 className="leading-10 text-[32px] text-black font-semibold">
+              <h2 style={{ lineHeight: 1.14 }} className="leading-10 text-[32px] text-black font-semibold">
                 Our Mission
               </h2>
               <p className="leading-8">

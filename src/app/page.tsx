@@ -23,7 +23,7 @@ export default function Home() {
       >
         <Button href="/contact" text="Book Online Today" extraClass="w-fit" />
       </Hero>
-      {/* <section className="py-[80px] bg-gradient-to-r from-black to-primary">
+      {/* <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary">
         <div className="container">
           <div className="grid lg:grid-cols-2">
             <div className="col-span-1 pr-14 flex flex-col justify-center">
@@ -49,19 +49,19 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
-          <h2 className="text-center mb-[58px] text-[32px] bold font-semibold">
+          <h2 style={{ lineHeight: 1.4 }}  className="text-center mb-[58px] text-[32px] bold font-semibold">
             Our Services
           </h2>
-          <div className="grid lg:grid-cols-2 gap-[22px] mb-[32px]">
+          <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px]  mb-[32px]">
             <ServiceCard
               img="./images/commercial.jpg"
               title="Commercial Cleaning"
               extraClasses="col-span-1"
               href="/commercial"
             >
-              <p className="text-center text-[18px] block mx-auto">
+              <p style={{ lineHeight: 1.5 }} className="text-center text-[18px] block mx-auto">
                 Commercial Cleaning
               </p>
             </ServiceCard>
@@ -71,16 +71,16 @@ export default function Home() {
               extraClasses="col-span-1"
               href="/domestic"
             >
-              <p className="text-center text-[18px] block mx-auto">
+              <p style={{ lineHeight: 1.5 }} className="text-center text-[18px] block mx-auto">
                 Domestic Cleaning
               </p>
             </ServiceCard>
           </div>
         </div>
       </section>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
-          <div className="grid lg:grid-cols-2 gap-[22px]">
+          <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
             <div className="image-wrapper col-span-1 h-[500px] rounded-lg">
               <img
                 src="./images/sink-cleaning.jpg"
@@ -88,12 +88,12 @@ export default function Home() {
                 className="w-full h-full object-cover object-center rounded-md"
               />
             </div>
-            <div className="col-span-1 lg:pl-14 flex flex-col justify-center relative">
+            <div className="order-first lg:order-last col-span-1 lg:pl-14 flex flex-col justify-center relative">
               <div className="flex flex-col gap-7">
-                <h2 className="font-semibold text-[32px]">
+                <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px]">
                   Experience the best quality services with Sparkle Crew
                 </h2>
-                <p className="leading-8">
+                <p style={{ lineHeight: 1.5 }}>
                   At Sparkle Crew, we believe that a clean environment is
                   essential for both your peace of mind and productivity. With
                   our dedicated team of cleaning experts, we&apos;re here to
@@ -112,13 +112,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-[80px] bg-gradient-to-r from-black to-primary">
+      <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary">
         <div className="container">
           <div className="flex flex-col justify-center">
-            <h2 className="text-white text-center mb-[58px] font-semibold text-[32px] leading-10">
+            <h2 style={{ lineHeight: 1.14 }} className="text-white text-center mb-[58px] font-semibold text-[32px]">
               Choose From Our Price Plans
             </h2>
-            <div className="grid lg:grid-cols-2 gap-[22px]">
+            <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
               <PriceCard
                 type="Domestic Cleaning"
                 price="£20.00"
@@ -258,15 +258,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
-          <div className="grid lg:grid-cols-2 gap-[22px]">
+          <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
             <div className="col-span-1 lg:pr-14 flex flex-col justify-center">
               <div className="flex flex-col gap-7">
-                <h2 className="font-semibold text-[32px] leading-10">
+                <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px]">
                   Why Choose Us
                 </h2>
-                <p className="leading-8">
+                <p style={{ lineHeight: 1.5 }}>
                   We take pride in our meticulous attention to detail. From
                   sanitizing high-touch surfaces to removing stubborn stains, no
                   corner goes overlooked. With Sparkle Crew, you can trust that

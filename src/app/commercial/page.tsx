@@ -15,14 +15,14 @@ const Commercial = () => {
       <HeroSecondary
         title="Commercial Cleaning"
       />
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1 lg:pr-14">
-              <h2 className="text-[32px] font-semibold mb-[28px]">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-semibold mb-[28px]">
                 A Clean and Healthy Workplace Starts with Sparkle Crew
               </h2>
-              <p className="mb-[32px] leading-8">
+              <p style={{ lineHeight: 1.5 }} className="mb-[32px]">
                 Sparkle Crew customizes cleaning for your business! Our regular
                 service keeps common areas, restrooms, and supplies sparkling.
                 Need more? We offer deep cleans, carpet care, and more. From
@@ -39,9 +39,9 @@ const Commercial = () => {
           </div>
         </div>
       </section>
-      <section className="py-[80px] bg-gradient-to-r from-black to-primary text-white">
+      <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary text-white">
         <div className="container">
-          <h2 className="leading-10 mb-[58px] text-[32px] text-center font-semibold">
+          <h2 style={{ lineHeight: 1.14 }} className="mb-[58px] text-[32px] text-center font-semibold">
             Our Services Include
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[22px]">
@@ -83,7 +83,7 @@ const Commercial = () => {
           </div>
         </div>
       </section>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1">
@@ -96,10 +96,10 @@ const Commercial = () => {
               />
             </div>
             <div className="col-span-1 lg:pl-14 flex flex-col justify-center gap-7">
-              <h2 className="text-[32px] font-semibold text-black">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-semibold text-black">
                 Our Cleaning Process
               </h2>
-              <p className="leading-8 text-black">
+              <p style={{ lineHeight: 1.5 }} className=" text-black">
                 Our process ensures a fresh first impression with a clean
                 entryway, then tackles common areas with dusting, trash removal,
                 and floor cleaning. We prioritize hygiene in restrooms and

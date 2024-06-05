@@ -14,14 +14,14 @@ const Contact = () => {
   return (
     <main>
       <HeroSecondary title="Contact Us" />
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1 lg:pr-14 flex flex-col gap-7">
-              <h2 className="font-semibold text-[32px] text-black">
+              <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px] text-black">
                 Contact Us
               </h2>
-              <p className="leading-8 text-black">
+              <p style={{ lineHeight: 1.5 }} className=" text-black">
                 Seeking a Cleaning Crew You Can Trust? We understand how
                 precious your time is. Our friendly and reliable team offers
                 consistent, high-quality cleaning services to keep your space

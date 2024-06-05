@@ -16,15 +16,15 @@ const Domestic = () => {
   return (
     <main>
       <HeroSecondary title="Domestic Cleaning"/>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px]">
             <div className="col-span-1 lg:pr-14 flex flex-col justify-center gap-7">
-              <h2 className="leading-10 text-[32px] text-black font-semibold">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] text-black font-semibold">
                 Tailored Cleaning Solutions for Your Home
               </h2>
 
-              <p className="leading-8 mb-3 text-black">
+              <p style={{ lineHeight: 1.5 }} className="mb-3 text-black">
                 Every home is unique, and so are your cleaning needs. Whether
                 you crave a weekly refresh or a deep clean for a special
                 occasion, Sparkle Crew gets the job done. Our regular cleaning
@@ -47,9 +47,9 @@ const Domestic = () => {
         </div>
       </section>
 
-      <section className="py-[80px] bg-gradient-to-r from-black to-primary text-white">
+      <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary text-white">
         <div className="container">
-          <h2 className="leading-10 mb-[58px] text-[32px] text-center font-semibold">
+          <h2 style={{ lineHeight: 1.14 }} className="mb-[58px] text-[32px] text-center font-semibold">
             Our Services Include
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[22px]">
@@ -81,7 +81,7 @@ const Domestic = () => {
           </div>
         </div>
       </section>
-      <section className="py-[80px]">
+      <section className="py-[64px] md:py-[80px]">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1">
@@ -93,11 +93,11 @@ const Domestic = () => {
                 className="rounded-md"
               />
             </div>
-            <div className="col-span-1 lg:pl-14 flex flex-col justify-center gap-7">
-              <h2 className="text-[32px] font-semibold text-black">
+            <div className="order-first lg:order-last col-span-1 lg:pl-14 flex flex-col justify-center gap-7">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-semibold text-black">
                 Our Cleaning Process
               </h2>
-              <p className="leading-8 text-black">
+              <p style={{ lineHeight: 1.5 }} className="text-black">
                 Our domestic cleaning process is designed to leave your home
                 immaculate from top to bottom. We begin by focusing on
                 high-traffic areas such as the bathroom and kitchen, where we
@@ -109,7 +109,7 @@ const Domestic = () => {
           </div>
         </div>
       </section>
-      <section className="py-[80px]"></section>
+      <section className="py-[64px] md:py-[80px]"></section>
     </main>
   );
 };
