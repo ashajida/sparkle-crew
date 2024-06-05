@@ -56,20 +56,24 @@ export default function Home() {
           </h2>
           <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px]  mb-[32px]">
             <ServiceCard
-              img="./images/commercial.jpg"
+              img="/images/commercial.jpg"
               title="Commercial Cleaning"
               extraClasses="col-span-1"
               href="/commercial"
+              width={640}
+              height={359}
             >
               <p style={{ lineHeight: 1.5 }} className="text-center text-[18px] block mx-auto">
                 Commercial Cleaning
               </p>
             </ServiceCard>
             <ServiceCard
-              img="./images/domestic.jpg"
+              img="/images/domestic.jpg"
               title="Domestic Cleaning"
               extraClasses="col-span-1"
               href="/domestic"
+              width={640}
+              height={960}
             >
               <p style={{ lineHeight: 1.5 }} className="text-center text-[18px] block mx-auto">
                 Domestic Cleaning
@@ -82,10 +86,12 @@ export default function Home() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
             <div className="image-wrapper col-span-1 h-[500px] rounded-lg">
-              <img
-                src="./images/sink-cleaning.jpg"
-                alt=""
+              <Image
+                src="/images/sink-cleaning.jpg"
+                alt="cleaning sink"
                 className="w-full h-full object-cover object-center rounded-md"
+                width={640}
+                height={960}
               />
             </div>
             <div className="order-first lg:order-last col-span-1 lg:pl-14 flex flex-col justify-center relative">
@@ -277,10 +283,12 @@ export default function Home() {
               </div>
             </div>
             <div className="image-wrapper col-span-1 h-[500px] rounded-lg order-first lg:order-last">
-              <img
-                src="./images/sink-cleaning.jpg"
-                alt=""
-                className="w-full h-full object-cover object-center rounded-md"
+              <Image
+                 src="/images/sink-cleaning.jpg"
+                 alt="cleaning sink"
+                 className="w-full h-full object-cover object-center rounded-md"
+                 width={640}
+                 height={960}
               />
             </div>
           </div>
