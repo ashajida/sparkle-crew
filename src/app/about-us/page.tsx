@@ -21,11 +21,11 @@ const AboutUs = () => {
                 width={`${640}`}
                 height={`${427}`}
                 alt="cleaning crew"
-                className="rounded-md"
+                className="rounded-md w-full"
               />
             </div>
             <div className=" order-first lg:order-last col-span-1 flex flex-col justify-center gap-7 lg:pl-14">
-              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] text-black font-semibold">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] text-black font-bold">
                 Sparkle Crew: Where Cleanliness Meets Peace of Mind
               </h2>
               <p style={{ lineHeight: 1.5 }}>
@@ -45,7 +45,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-7">
             <div className="col-span-1 flex flex-col justify-center gap-7 lg:pr-14">
-              <h2 style={{ lineHeight: 1.14 }} className="leading-10 text-[32px] text-black font-semibold">
+              <h2 style={{ lineHeight: 1.14 }} className="leading-10 text-[32px] text-black font-bold">
                 Our Mission
               </h2>
               <p className="leading-8">
@@ -66,7 +66,7 @@ const AboutUs = () => {
                 width={`${640}`}
                 height={`${480}`}
                 alt="cleaning crew"
-                className="rounded-md"
+                className="rounded-md w-full"
               />
             </div>
           </div>

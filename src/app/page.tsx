@@ -51,7 +51,7 @@ export default function Home() {
       </section> */}
       <section className="py-[64px] md:py-[80px]">
         <div className="container">
-          <h2 style={{ lineHeight: 1.4 }}  className="text-center mb-[58px] text-[32px] bold font-semibold">
+          <h2 style={{ lineHeight: 1.4 }}  className="text-center mb-[58px] text-[32px] bold font-bold">
             Our Services
           </h2>
           <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px]  mb-[32px]">
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="order-first lg:order-last col-span-1 lg:pl-14 flex flex-col justify-center relative">
               <div className="flex flex-col gap-7">
-                <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px]">
+                <h2 style={{ lineHeight: 1.14 }} className="font-bold text-[32px]">
                   Experience the best quality services with Sparkle Crew
                 </h2>
                 <p style={{ lineHeight: 1.5 }}>
@@ -121,7 +121,7 @@ export default function Home() {
       <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary">
         <div className="container">
           <div className="flex flex-col justify-center">
-            <h2 style={{ lineHeight: 1.14 }} className="text-white text-center mb-[58px] font-semibold text-[32px]">
+            <h2 style={{ lineHeight: 1.14 }} className="text-white text-center mb-[58px] font-bold text-[32px]">
               Choose From Our Price&nbsp;Plans
             </h2>
             <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
@@ -269,7 +269,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-[64px] lg:gap-[22px] ">
             <div className="col-span-1 lg:pr-14 flex flex-col justify-center">
               <div className="flex flex-col gap-7">
-                <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px]">
+                <h2 style={{ lineHeight: 1.14 }} className="font-bold text-[32px]">
                   Why Choose Us
                 </h2>
                 <p style={{ lineHeight: 1.5 }}>
@@ -282,7 +282,7 @@ export default function Home() {
                 <Button href="/about-us" text="Read More" extraClass="w-fit" />
               </div>
             </div>
-            <div className="image-wrapper col-span-1 h-[500px] rounded-lg order-first lg:order-last">
+            <div className="image-wrapper col-span-1 h-[500px] rounded-lg">
               <Image
                  src="/images/sink-cleaning.jpg"
                  alt="cleaning sink"

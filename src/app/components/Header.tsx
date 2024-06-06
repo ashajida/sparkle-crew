@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Router, useRouter } from "next/router";
@@ -30,7 +31,7 @@ const Header = () => {
   }
 
   const handleScreenSize = useCallback(() => {
-    if(window.innerWidth <= 768) return setIsMobile(true);
+    if(window.innerWidth <= 1024) return setIsMobile(true);
       setIsMobile(false);
   }, [])
 
@@ -57,11 +58,14 @@ const Header = () => {
       <div className="flex flex-col lg:flex-row align-center container justify-between">
         <div className="flex justify-between lg:block items-center">
           <Link href="/">
-            <img
-              src="./images/logo.png"
+            <Image
+            width={376}
+            height={137}
+            alt="logo"
+              src="/images/logo.png"
               className={`transition ease delay-50 w-[120px] ${
-                !stickyNav ? "w-[120px]" : "w-[80px] scale-[0.9]"
-              }`}
+                !stickyNav && !isMobile ? "w-[120px]" : "w-[80px] scale-[0.9]"
+              } ${isMobile && "w-[80px] scale-[0.9]" }`}
             />
           </Link>
           <div className="block lg:hidden">

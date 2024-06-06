@@ -19,7 +19,7 @@ const Commercial = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1 lg:pr-14">
-              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-semibold mb-[28px]">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-bold mb-[28px]">
                 A Clean and Healthy Workplace Starts with Sparkle Crew
               </h2>
               <p style={{ lineHeight: 1.5 }} className="mb-[32px]">
@@ -41,7 +41,7 @@ const Commercial = () => {
       </section>
       <section className="py-[64px] md:py-[80px] bg-gradient-to-r from-black to-primary text-white">
         <div className="container">
-          <h2 style={{ lineHeight: 1.14 }} className="mb-[58px] text-[32px] text-center font-semibold">
+          <h2 style={{ lineHeight: 1.14 }} className="mb-[58px] text-[32px] text-center font-bold">
             Our Services Include
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[22px]">
@@ -92,11 +92,11 @@ const Commercial = () => {
                 alt="demestic cleaning"
                 width={`${640}`}
                 height={`${427}`}
-                className="rounded-md"
+                className="rounded-md w-full"
               />
             </div>
             <div className="col-span-1 lg:pl-14 flex flex-col justify-center gap-7">
-              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-semibold text-black">
+              <h2 style={{ lineHeight: 1.14 }} className="text-[32px] font-bold text-black">
                 Our Cleaning Process
               </h2>
               <p style={{ lineHeight: 1.5 }} className=" text-black">

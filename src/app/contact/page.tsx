@@ -18,8 +18,8 @@ const Contact = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[22px] items-center">
             <div className="col-span-1 lg:pr-14 flex flex-col gap-7">
-              <h2 style={{ lineHeight: 1.14 }} className="font-semibold text-[32px] text-black">
-                Contact Us
+              <h2 style={{ lineHeight: 1.14 }} className="font-bold text-[32px] text-black">
+                Let&apos;s stay in touch
               </h2>
               <p style={{ lineHeight: 1.5 }} className=" text-black">
                 Seeking a Cleaning Crew You Can Trust? We understand how
