@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main>
       <Hero
-        title="Sparkling&nbsp;homes&nbsp;&&nbsp;offices. Effortless&nbsp;cleaning."
+        title="Sparkling homes &amp; offices. Effortless&nbsp;cleaning."
         img="./images/hero.jpg"
         imgSx="./images/hero-sx.png"
         imgMd="./images/hero-md.png"
