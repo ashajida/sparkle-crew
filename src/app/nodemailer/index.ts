@@ -14,9 +14,6 @@ export const transporter = nodemailer.createTransport({
     }
 });
 
-
-
-
 export const options = {
     from: user,
     to: user
