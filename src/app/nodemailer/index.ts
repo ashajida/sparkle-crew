@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 const user = process.env.USER;
 const pass = process.env.PASS;
-const host = process.env.HOST
+const host = process.env.HOST; 
 
 export const transporter = nodemailer.createTransport({
     port: 465,
@@ -13,6 +13,9 @@ export const transporter = nodemailer.createTransport({
       pass
     }
 });
+
+
+
 
 export const options = {
     from: user,
