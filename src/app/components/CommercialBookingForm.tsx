@@ -2,6 +2,7 @@
 import Reac, {useEffect, useRef} from "react";
 import { useFormState } from "react-dom";
 import { submitCommercialForm } from "../actions/submitCommercialForm";
+import FormButton from "./FormButton";
 
 const CommercialBookingForm = () => {
 
@@ -215,9 +216,7 @@ const CommercialBookingForm = () => {
             name="message"
           />
         </div>
-        <button className="rounded-md py-[10px] px-[16px] w-full font-medium text-white bg-primary">
-          Submit
-        </button>
+        <FormButton />
       </form>
     </>
   );

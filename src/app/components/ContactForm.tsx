@@ -1,6 +1,7 @@
 'use client';
 import { useFormState } from "react-dom";
 import { submitContactForm } from "../actions/actions";
+import FormButton from "./FormButton";
 
 const ContactForm = () => {
     const [state, formAction] = useFormState(submitContactForm, {
@@ -84,9 +85,7 @@ const ContactForm = () => {
             <span className="text-[#dc3545] text-sm">{state?.errors?.message}</span>
           )}
         </div>
-        <button className="rounded-md py-[10px] px-[16px] w-full text-white font-medium uppercase bg-primary">
-          Submit
-        </button>
+        <FormButton />
       </form>
     </>
   );
