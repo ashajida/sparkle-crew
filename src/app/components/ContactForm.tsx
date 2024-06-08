@@ -2,6 +2,7 @@
 import { useFormState } from "react-dom";
 import { submitContactForm } from "../actions/actions";
 import FormButton from "./FormButton";
+import { useEffect, useRef } from "react";
 
 const ContactForm = () => {
     const [state, formAction] = useFormState(submitContactForm, {
@@ -15,9 +16,16 @@ const ContactForm = () => {
         },
         errors: [],
       });
+
+    const formRef = useRef<HTMLFormElement>(null);
+
+    useEffect(() => {
+      if(!state?.errors) formRef?.current?.reset();
+    }, [formRef, state])
+      
   return (
     <>
-      <form action={formAction} className="w-full">
+      <form action={formAction} className="w-full" ref={formRef}>
         {!state?.errors && (
           <span className="text-[#28a745]">{state?.message}</span>
         )}
