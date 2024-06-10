@@ -10,7 +10,7 @@ type Props = {
 const Button = ({href, text, extraClass}: Props) => {
   return (
     <>
-        <Link className={`rounded px-4 py-3 block bg-purple-50 cursor-pointer bg-primary hover:bg-[#47c4ff] text-black ${extraClass}`} href={href}>{text}</Link>
+        <Link className={`rounded border border-transparent px-4 py-3 block bg-purple-50 cursor-pointer bg-primary hover:border-primary hover:text-primary hover:bg-transparent text-black ${extraClass}`} href={href}>{text}</Link>
     </>
   )
 }
