@@ -138,7 +138,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Dusting and wiping down surfaces, including furniture,
                       shelves, and baseboards
                     </span>
@@ -149,7 +149,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Vacuuming carpets, rugs, and upholstery.
                     </span>
                   </div>
@@ -159,7 +159,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Cleaning and sanitizing bathrooms, including toilets,
                       sinks, tubs, and showers.
                     </span>
@@ -170,7 +170,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Washing dishes and emptying trash bins.
                     </span>
                   </div>
@@ -180,7 +180,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Removing cobwebs from ceilings and corners
                     </span>
                   </div>
@@ -199,7 +199,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Dusting and wiping down surfaces, including desks, tables,
                       and countertops
                     </span>
@@ -210,7 +210,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Vacuuming carpets and rugs, and sweeping and mopping hard
                       floors
                     </span>
@@ -221,7 +221,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Cleaning and sanitizing restrooms, including toilets,
                       sinks, and fixtures
                     </span>
@@ -232,7 +232,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Cleaning and disinfecting common areas, such as break
                       rooms and lobbies
                     </span>
@@ -243,7 +243,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Cleaning and sanitizing kitchen areas, including sinks,
                       countertops, and appliances
                     </span>
@@ -254,7 +254,7 @@ export default function Home() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3909aae5c687680e9982848ae5c45adcac7b78ac5baa94559823211af66a00a3?"
                       className="shrink-0 my-auto w-4 aspect-square"
                     />
-                    <span className="text-[12px]">
+                    <span className="text-[14px]">
                       Dusting and wiping down office equipment
                     </span>
                   </div>
