@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { useFormState } from "react-dom";
 import { submitDomesticForm } from "../actions/submitDomesticForm";
+import FormButton from "./FormButton";
 
 type Props = {
   isDemestic?: boolean;
@@ -249,9 +250,7 @@ const DomesticBookingForm = () => {
             name="message"
           />
         </div>
-        <button className="rounded-md py-[10px] px-[16px] w-full font-medium text-white bg-primary">
-          Submit
-        </button>
+        <FormButton />
       </form>
     </>
   );
